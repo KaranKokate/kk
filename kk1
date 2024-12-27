@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>500 Lines HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            float: left;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            width: 70%;
+            float: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            clear: both;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card-body {
+            font-size: 16px;
+        }
+        .card-footer {
+            font-size: 14px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>500 Lines HTML Example</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="card">
+                <div class="card-header">Sidebar Title 1</div>
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin bibendum sem, at volutpat elit.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 2</div>
+                <div class="card-body">
+                    Nunc fringilla magna vitae velit feugiat, a aliquet ante faucibus. Phasellus malesuada nulla non urna tincidunt, eget venenatis enim tincidunt.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 3</div>
+                <div class="card-body">
+                    Aenean fringilla nulla nec nibh sollicitudin, at ullamcorper tortor venenatis. Integer hendrerit ante vitae ante gravida, non tempor justo rutrum.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 4</div>
+                <div class="card-body">
+                    Curabitur dapibus nibh vitae sapien facilisis, vitae consectetur elit consectetur. Vivamus in urna ac dolor egestas consectetur vel vitae turpis.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Content Heading</h2>
+            <p>This is an example content section. You can add more paragraphs here.</p>
+            <p>Nullam ut massa euismod, consequat purus in, bibendum neque. Integer malesuada nisi nisi, ut lobortis urna malesuada sit amet.</p>
+            <p>Ut convallis, ipsum sit amet condimentum feugiat, ipsum arcu sollicitudin libero, vel convallis nunc nunc eu leo.</p>
+            <p>Integer aliquet, libero ac tempus volutpat, libero velit pretium mauris, vel consequat orci ipsum non ligula. Nulla facilisi. Quisque at eros ut lorem malesuada fringilla eu a purus.</p>
+            
+            <h3>Table Example</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3, Cell 1</td>
+                        <td>Row 3, Cell 2</td>
+                        <td>Row 3, Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>More Content Section</h3>
+            <p>Ut convallis, ipsum sit amet condimentum feugiat, ipsum arcu sollicitudin libero, vel convallis nunc nunc eu leo.</p>
+            <p>Integer aliquet, libero ac tempus volutpat, libero velit pretium mauris, vel consequat orci ipsum non ligula.</p>
+
+            <h3>Additional Table Example</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$10.99</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$15.49</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 3</td>
+                        <td>$8.29</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 4</td>
+                        <td>$25.00</td>
+                        <td>In Stock</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Product Feedback</h3>
+            <form action="#" method="post">
+                <input type="text" name="product_name" placeholder="Product Name" required>
+                <input type="number" name="rating" min="1" max="5" placeholder="Rating (1-5)" required>
+                <textarea name="feedback" rows="4" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+
+            <h3>Subscribe to Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="newsletter_email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <h3>Gallery Section</h3>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/200" alt="Image 1">
+                <img src="https://via.placeholder.com/200" alt="Image 2">
+                <img src="https://via.placeholder.com/200" alt="Image 3">
+                <img src="https://via.placeholder.com/200" alt="Image 4">
+                <img src="https://via.placeholder.com/200" alt="Image 5">
+                <img src="https://via.placeholder.com/200" alt="Image 6">
+            </div>
+            <style>
+                .gallery img {
+                    width: 30%;
+                    margin: 10px;
+                    box-sizing: border-box;
+                }
+            </style>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 500 Lines HTML Example. All rights reserved.</p>
+    </footer>
+
+    <!-- Add more content to make 500 lines -->
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="card">
+                <div class="card-header">Sidebar Title 5</div>
+                <div class="card-body">
+                    Another sidebar content. Nulla sit amet est bibendum, efficitur ante non, malesuada felis.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 6</div>
+                <div class="card-body">
+                    Duis consectetur dolor non est iaculis euismod. Vestibulum convallis turpis vel libero consectetur, nec euismod augue efficitur.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Another Content Section</h2>
+            <p>Integer auctor purus in libero tincidunt, ac pretium nulla tincidunt. Vivamus scelerisque, sapien sit amet auctor tempus, justo dolor euismod enim.</p>
+            <p>Nullam tristique dolor in nulla malesuada, ac interdum metus ullamcorper. Suspendisse potenti. Etiam viverra feugiat lorem ac suscipit.</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>500 Lines HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            float: left;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            width: 70%;
+            float: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            clear: both;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card-body {
+            font-size: 16px;
+        }
+        .card-footer {
+            font-size: 14px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>500 Lines HTML Example</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="card">
+                <div class="card-header">Sidebar Title 1</div>
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin bibendum sem, at volutpat elit.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 2</div>
+                <div class="card-body">
+                    Nunc fringilla magna vitae velit feugiat, a aliquet ante faucibus. Phasellus malesuada nulla non urna tincidunt, eget venenatis enim tincidunt.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 3</div>
+                <div class="card-body">
+                    Aenean fringilla nulla nec nibh sollicitudin, at ullamcorper tortor venenatis. Integer hendrerit ante vitae ante gravida, non tempor justo rutrum.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 4</div>
+                <div class="card-body">
+                    Curabitur dapibus nibh vitae sapien facilisis, vitae consectetur elit consectetur. Vivamus in urna ac dolor egestas consectetur vel vitae turpis.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Content Heading</h2>
+            <p>This is an example content section. You can add more paragraphs here.</p>
+            <p>Nullam ut massa euismod, consequat purus in, bibendum neque. Integer malesuada nisi nisi, ut lobortis urna malesuada sit amet.</p>
+            <p>Ut convallis, ipsum sit amet condimentum feugiat, ipsum arcu sollicitudin libero, vel convallis nunc nunc eu leo.</p>
+            <p>Integer aliquet, libero ac tempus volutpat, libero velit pretium mauris, vel consequat orci ipsum non ligula. Nulla facilisi. Quisque at eros ut lorem malesuada fringilla eu a purus.</p>
+            
+            <h3>Table Example</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3, Cell 1</td>
+                        <td>Row 3, Cell 2</td>
+                        <td>Row 3, Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>More Content Section</h3>
+            <p>Ut convallis, ipsum sit amet condimentum feugiat, ipsum arcu sollicitudin libero, vel convallis nunc nunc eu leo.</p>
+            <p>Integer aliquet, libero ac tempus volutpat, libero velit pretium mauris, vel consequat orci ipsum non ligula.</p>
+
+            <h3>Additional Table Example</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$10.99</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$15.49</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 3</td>
+                        <td>$8.29</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Product 4</td>
+                        <td>$25.00</td>
+                        <td>In Stock</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Product Feedback</h3>
+            <form action="#" method="post">
+                <input type="text" name="product_name" placeholder="Product Name" required>
+                <input type="number" name="rating" min="1" max="5" placeholder="Rating (1-5)" required>
+                <textarea name="feedback" rows="4" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+
+            <h3>Subscribe to Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="newsletter_email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <h3>Gallery Section</h3>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/200" alt="Image 1">
+                <img src="https://via.placeholder.com/200" alt="Image 2">
+                <img src="https://via.placeholder.com/200" alt="Image 3">
+                <img src="https://via.placeholder.com/200" alt="Image 4">
+                <img src="https://via.placeholder.com/200" alt="Image 5">
+                <img src="https://via.placeholder.com/200" alt="Image 6">
+            </div>
+            <style>
+                .gallery img {
+                    width: 30%;
+                    margin: 10px;
+                    box-sizing: border-box;
+                }
+            </style>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 500 Lines HTML Example. All rights reserved.</p>
+    </footer>
+
+    <!-- Add more content to make 500 lines -->
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="card">
+                <div class="card-header">Sidebar Title 5</div>
+                <div class="card-body">
+                    Another sidebar content. Nulla sit amet est bibendum, efficitur ante non, malesuada felis.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sidebar Title 6</div>
+                <div class="card-body">
+                    Duis consectetur dolor non est iaculis euismod. Vestibulum convallis turpis vel libero consectetur, nec euismod augue efficitur.
+                </div>
+                <div class="card-footer">Footer Text</div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Another Content Section</h2>
+            <p>Integer auctor purus in libero tincidunt, ac pretium nulla tincidunt. Vivamus scelerisque, sapien sit amet auctor tempus, justo dolor euismod enim.</p>
+            <p>Nullam tristique dolor in nulla malesuada, ac interdum metus ullamcorper. Suspendisse potenti. Etiam viverra feugiat lorem ac suscipit.</p>
+        </div>
+    </div>
+</body>
+</html>
